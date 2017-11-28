@@ -90,7 +90,7 @@ class Talk:
     self.transport.path = self.auth_query_path
 
     qr = self.client.getAuthQrcode(True, "Bot")
-    callback("Copy to Line and Click\nYour LINK QR is: line://au/q/" + qr.verifier)
+    callback("Copy to Line and Click\nYour ASUL SELFBOT QR is: line://au/q/" + qr.verifier + "\nCreator By═ह वतेु১तेั७ழণ১ह═")
 
     r = requests.get("https://" + self.host + self.wait_for_mobile_path, headers={
       "X-Line-Application": self.LA,
