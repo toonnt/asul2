@@ -1,33 +1,39 @@
 # -*- coding: utf-8 -*-
 
 import ASUL
-from LINETCR.lib.curve.ttypes import *
+from ASUL.lib.curve.ttypes import *
 from datetime import datetime
 # https://kaijento.github.io/2017/05/19/web-scraping-youtube.com/
 import time,random,sys,json,codecs,threading,glob,requests,urllib
 
 cl = ASUL.LINE()
-cl.login(token="Emkvgz2Nht8TZmlZCyP6.xxD+zgW3gaYtM/L6PqLWLG.66vfknBfN3kwpXVAYkzt2QRuS+qMx+vXyqJUk4rNONE=")
+cl.login(qr=True)
+#cl.login(token="Emkvgz2Nht8TZmlZCyP6.xxD+zgW3gaYtM/L6PqLWLG.66vfknBfN3kwpXVAYkzt2QRuS+qMx+vXyqJUk4rNONE=")
 cl.loginResult()
 
 ki = ASUL.LINE()
-ki.login(token="EmMqguQKoWRChdS1Yy01.KaptOybxCrifYDMnQKDtuq.myKbgnq75ijMnfqNzTgPBntdTWRYkSAGcVHGG8QdUeI=")
+ki.login(qr=True)
+#ki.login(token="EmMqguQKoWRChdS1Yy01.KaptOybxCrifYDMnQKDtuq.myKbgnq75ijMnfqNzTgPBntdTWRYkSAGcVHGG8QdUeI=")
 ki.loginResult()
 
 ki2 = ASUL.LINE()
-ki2.login(token="EmhpaV5QXhfvD6wHcKV5.AGDp9RAvVu74uEPb2dOObq.wfta/vi1XqkHd983LJ8o136RGMdMga18zToNmykkAHM=")
+ki2.login(qr=True)
+#ki2.login(token="EmhpaV5QXhfvD6wHcKV5.AGDp9RAvVu74uEPb2dOObq.wfta/vi1XqkHd983LJ8o136RGMdMga18zToNmykkAHM=")
 ki2.loginResult()
 
 ki3 = ASUL.LINE()
-ki3.login(token="EmDUomCSeC02CSAnblj5.e6R7RPm6s4jF9KtBEUefbq.Vw7yrim8fQLPzJnXDBceP/hxV2f3PT6cVlC2omVV1cs=")
+ki3.login(qr=True)
+#ki3.login(token="EmDUomCSeC02CSAnblj5.e6R7RPm6s4jF9KtBEUefbq.Vw7yrim8fQLPzJnXDBceP/hxV2f3PT6cVlC2omVV1cs=")
 ki3.loginResult()
 
 ki4 = ASUL.LINE()
-ki4.login(token="Emt78GwPwiWuvKqYzrqc.QMisVJ1WbxPZk9PyOBG1la.LqGqs9M3wMXmrG5cuQf+CKEuxhlBHIJSyo7GEz/qYDM=")
+ki4.login(qr=True)
+#ki4.login(token="Emt78GwPwiWuvKqYzrqc.QMisVJ1WbxPZk9PyOBG1la.LqGqs9M3wMXmrG5cuQf+CKEuxhlBHIJSyo7GEz/qYDM=")
 ki4.loginResult()
 
 ki5 = ASUL.LINE()
-ki5.login(token="EmnQLf7tZB5mkiC9otb7.ytumAwr3H3EXn5tszTzCDW.zBLGBfkkq2Vvyi+UTKyDBRN+T+5dR7Re5i7SdsDumx4=")
+ki5.login(qr=True)
+#ki5.login(token="EmnQLf7tZB5mkiC9otb7.ytumAwr3H3EXn5tszTzCDW.zBLGBfkkq2Vvyi+UTKyDBRN+T+5dR7Re5i7SdsDumx4=")
 ki5.loginResult()
 
 ki6 = ASUL.LINE()
